@@ -27,6 +27,7 @@ Routing	react-router-dom
 Clone the repository
 
 git clone https://github.com/Sylvester-Onyebuchi/supabase-react-project.git
+
 cd supabase-react-project
 
 
@@ -38,6 +39,7 @@ npm install
 Setup Supabase
 
 Create a project on Supabase
+
 https://supabase.com/
 
 Get your SUPABASE_URL and SUPABASE_ANON_KEY from the project settings.
@@ -45,6 +47,7 @@ Get your SUPABASE_URL and SUPABASE_ANON_KEY from the project settings.
 Create a .env file in the root of your project:
 
 VITE_SUPABASE_URL=your-supabase-url
+
 VITE_SUPABASE_ANON_KEY=your-anon-key
 
 
