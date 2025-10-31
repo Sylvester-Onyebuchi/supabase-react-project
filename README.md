@@ -1,16 +1,53 @@
-# React + Vite
+Project Name: Supabase-react-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern authentication demo built with React, Vite, TailwindCSS, and Supabase. Supports email/password login and registration with real-time feedback using toast notifications.
 
-Currently, two official plugins are available:
+⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Authentication: Register, login, logout using Supabase.
 
-## React Compiler
+Protected routes: Users can only access protected pages when logged in.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Real-time notifications: Success and error messages with react-hot-toast.
 
-## Expanding the ESLint configuration
+Modern frontend stack: React + Vite + TailwindCSS for fast and responsive UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clean architecture: Context API for auth state management.
+
+🛠 Tech Stack
+Layer	Technology
+Frontend	React, Vite, TailwindCSS
+Authentication	Supabase (PostgreSQL + Auth API)
+Notifications	react-hot-toast
+Routing	react-router-dom
+
+
+🚀 Installation
+
+Clone the repository
+
+git clone https://github.com/Sylvester-Onyebuchi/supabase-react-project.git
+cd supabase-react-project
+
+
+Install dependencies
+
+npm install
+
+
+Setup Supabase
+
+Create a project on Supabase
+https://supabase.com/
+
+Get your SUPABASE_URL and SUPABASE_ANON_KEY from the project settings.
+
+Create a .env file in the root of your project:
+
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+
+Run the project
+
+npm run dev
